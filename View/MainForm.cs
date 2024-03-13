@@ -151,7 +151,7 @@
 
         private void buttonRoute_Click(object sender, EventArgs e)
         {
-            Connection.Instance.IrSendCode(0x16);
+            Connection.Instance.IrSendCode(0x54);
         }
     }
 }
